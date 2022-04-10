@@ -42,6 +42,7 @@ export default function Login() {
   };
 
   useEffect(() => {
+    console.log(apiService.getDegrees());
     if (storage?.userInfo) {
       router.push(`/dashboard/${storage.userInfo.role}`);
     }
