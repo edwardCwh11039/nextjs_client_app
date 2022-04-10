@@ -54,7 +54,7 @@ const getBaseUrl = () => {
   }
 };
 // const baseURL = getBaseUrl();
-const baseURL = 'http://3.1.101.157:3001/api';
+const baseURL = '3.1.101.157:3001/api';
 const axiosInstance = axios.create({
   baseURL,
   withCredentials: true,
