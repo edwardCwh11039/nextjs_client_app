@@ -50,11 +50,11 @@ const getBaseUrl = () => {
   if (process.env.NODE_ENV === 'development') {
     return process.env.NEXT_PUBLIC_API || 'http://localhost:3001/api';
   } else {
-    return 'http://3.1.101.157:3001//api';
+    return 'http://3.1.101.157:3001/api';
   }
 };
 // const baseURL = getBaseUrl();
-const baseURL = 'http://3.1.101.157:3001//api';
+const baseURL = 'http://3.1.101.157:3001/api';
 const axiosInstance = axios.create({
   baseURL,
   withCredentials: true,
